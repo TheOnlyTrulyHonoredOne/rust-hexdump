@@ -1,0 +1,8 @@
+#Rust Build Files
+/target/
+
+#Temp Test files
+test.txt
+dump.txt
+output.txt
+
