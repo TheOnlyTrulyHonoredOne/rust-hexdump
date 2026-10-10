@@ -15,7 +15,7 @@ fn main() {
 
             for byte in bytes {
                 write!(&mut hex_output, "{:02x} ", byte).unwrap();
-                println!("{}", hex_output);
+                //println!("{}", hex_output);
             }
 
             fs::write("output.txt", &hex_output).expect("Failed to write output file");
